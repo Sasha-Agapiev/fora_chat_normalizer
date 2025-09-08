@@ -79,6 +79,11 @@ docker run -p 8000:8000 -e OPENAI_API_KEY="your-key" travel-normalizer
 ### Entity Extraction
 - **Cities, Hotels, and Restaurants**: Combination of SpaCy named entity recognition and OpenAI GPT-4o-mini
 
+### Contact Information Extraction
+- Done using simple Regex with Python phonenumbers library.
+- <span style="color:red"> I did not use OpenAI for this to decrease cost and latency </span>.
+
+
 ### Enrichments
 - **Emergency numbers**: Emergency number API (emergencynumberapi.com) for with fallback data
 - **Sentiment analysis**: Keyword-based mood detection with ratio-based confidence calculation
