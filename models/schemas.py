@@ -1,3 +1,9 @@
+#########################################################################################
+#  Fora Take-Home Project: "Normalize" Chatbot API
+#  schemas.py: Defining classes for data validation (API inputs and outputs)
+#########################################################################################
+
+
 from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any, Literal
 from datetime import datetime
