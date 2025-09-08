@@ -1,3 +1,9 @@
+#########################################################################################
+#  Fora Take-Home Project: "Normalize" Chatbot API
+#  test_api.py: Test suite for the API. 
+#               Add custom test cases to TestRunner.test_cases
+#########################################################################################
+
 import sys
 import os
 from dotenv import load_dotenv
