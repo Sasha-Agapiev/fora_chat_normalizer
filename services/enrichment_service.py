@@ -1,3 +1,13 @@
+#########################################################################################
+#  Fora Take-Home Project: "Normalize" Chatbot API
+#  enrichment_service.py: Service for extracting the following enrichments: 
+#     * Country emergency numbers
+#     * message sentiment
+#     * client's travel phase
+#     * travel disruption type
+#     * prioritized customer support recommendations
+#########################################################################################
+
 import logging
 import requests
 import re
