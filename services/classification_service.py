@@ -1,3 +1,11 @@
+#########################################################################################
+#  Fora Take-Home Project: "Normalize" Chatbot API
+#  classification_service.py: Service for classifying client messages based on urgency, 
+#                             using a weighted average of OpenAI API call output 
+#                             and deterministic rules-based logic.
+#########################################################################################
+
+
 import openai
 import logging
 import json
